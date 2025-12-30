@@ -205,3 +205,47 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env (if anyone runs locally too)
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb_checkpoints*
+
+# Colab temp / logs
+*.log
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (don’t commit raw patient videos/images)
+data/raw/
+data/processed/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Training outputs / weights (YOLO etc.)
+runs/
+weights/
+*.pt
+*.onnx
+
+# Secrets (if any)
+.env
+*.key
